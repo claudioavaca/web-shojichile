@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Inter:wght@300;500&display=swap');
+
+:root {
+    --color-miel: #E3B448;
+    --bg-zen: #FAF8F5;
+}
+
+body { font-family: 'Inter', sans-serif; background-color: var(--bg-zen); scroll-behavior: smooth; }
+h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
+
+.nav-link {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.7rem;
+    color: #a8a29e;
+    transition: all 0.4s;
+}
+
+.nav-link:hover { color: var(--color-miel); font-weight: bold; }
+
+.card-shoji {
+    background: white;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), shadow 0.6s;
+}
+
+.card-shoji:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}

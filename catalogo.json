@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mampara de Madera Shoji",
+    "categoria": "Interior",
+    "desc": "Separador artesanal que integra luz y privacidad. Madera nativa tratada para ambientes Zen y Feng Shui.",
+    "precio": 450000,
+    "imagen": "img/mampara-1.webp",
+    "seo_alt": "Puerta japonesa shoji de madera nativa minimalista"
+  },
+  {
+    "id": 2,
+    "nombre": "Cama Japonesa Tatami",
+    "categoria": "Dormitorio",
+    "desc": "Estructura de baja altura en madera noble. Estabilidad y estética despejada para un descanso profundo.",
+    "precio": 580000,
+    "imagen": "img/cama-tatami.webp",
+    "seo_alt": "Cama tatami japonesa minimalista madera miel"
+  }
+]
